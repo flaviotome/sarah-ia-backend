@@ -110,3 +110,15 @@ Para encerrar o servidor, pressione `Ctrl + C` no terminal onde o Flask está ro
 ## **Pronto!**
 
 Agora você pode executar e testar o script localmente usando o comando `flask run`.
+
+## Dockerfile:
+
+Para executar o Dockerfile, primeiro utilie o comando 'wget' para baixar as versões compatíveis do Google Chrome e Chromedriver no diretório raiz do projeto:
+
+```
+wget https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.58/linux64/chrome-linux64.zip
+```
+
+```
+wget https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.58/linux64/chromedriver-linux64.zip
+```
